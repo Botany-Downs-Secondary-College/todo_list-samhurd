@@ -12,14 +12,20 @@ def my_list():
                 user_todo = input("What is something you want to add to your to-do list:")
                 todo_list.append(user_todo)
                 print("Your task has been added.")
-
-
-
-
-
-
-
-
+            elif options == 2:
+                print('\n\n'.join(todo_list))
+                print('\n\nYour task has been printed.')
+            elif options == 3:
+                print('\n\nGoodbye!')
+                i += 3
+            else:
+                print("\n\nThat is not a valid choice. Please enter a number from 1 to 3.")
+            
+        
+        except ValueError:
+            print("That is not an option, please enter a number")
+    return options
+            
 
 
 
