@@ -1,6 +1,13 @@
+#todo_list.py
+#the program allows user to add and display a list of tasks to complete
+#Sam Hurd, 15 Feb 21
+
+
+#list
 todo_list  = ['\n\nBuy food', 'Do homework', 'Make dinner']
 
 
+#main routine
 def my_list():
     i = 1
     while i < 2:
